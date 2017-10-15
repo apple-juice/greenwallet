@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>fb_icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="greenwallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01a_greenwallet" transform="translate(-1260.000000, -6551.000000)">
+            <g id="fb_icn" transform="translate(1250.000000, 6545.000000)">
+                <rect id="Rectangle-2" fill="#D8D8D8" opacity="0" x="0" y="0" width="30" height="30"></rect>
+                <path d="M13.3898499,23.3235347 L13.3898499,15.729615 L10.8333333,15.729615 L10.8333333,12.7900332 L13.3898499,12.7900332 L13.3898499,10.5951454 C13.2830627,9.54739535 13.6446274,8.50599823 14.3776499,7.7500331 C15.1106724,6.99406798 16.1402027,6.60083066 17.190342,6.67570296 C17.9526653,6.67333335 18.7145497,6.71258615 19.4725963,6.79328623 L19.4725963,9.43890988 L17.905383,9.43890988 C17.4998618,9.34728127 17.0755674,9.46776132 16.7786427,9.75885218 C16.4817181,10.0499431 16.3527352,10.4718697 16.4361206,10.879305 L16.4361206,12.770436 L19.3746454,12.770436 L18.9926372,15.7100178 L16.4459157,15.7100178 L16.4459157,23.3333333 L13.3898499,23.3235347 Z" id="_Path_-Copy-2" fill="#242424"></path>
+            </g>
+        </g>
+    </g>
+</svg>

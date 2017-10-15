@@ -1,0 +1,47 @@
+@import './reset.css';
+@import 'vendor/bootstrap-custom.min.css';
+@import 'common/fonts';
+@import 'common/vars';
+@import 'common/functions';
+@import 'common/mixins';
+@import 'common/typo';
+
+@import 'vendor/slick';
+@import 'vendor/slick-theme';
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font: 400 getFontSize(regular) $font-default;
+  color: getColor(text);
+  background-color: getColor(white);
+
+  -webkit-text-size-adjust: none;
+  font-size-adjust: none;
+
+  @include fontantialias(true);
+
+  @include break-max(tablet) {
+    &.menu_opened {
+      overflow: hidden;
+      height: 100%;
+    }
+  }
+}
+
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/grid';
+@import 'partials/sections';
+@import 'partials/list';
+@import 'partials/form';
+@import 'partials/homepage';
+@import 'partials/timeline';
