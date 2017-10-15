@@ -86,10 +86,8 @@
   @include break-max(tablet) {
     padding-top: 100px;
     padding-bottom: 70px;
-    background-image: none !important;
+    background-position: center left;
 
-    .menu_opened & {
-    }
   }
 
   @include break-max(medium) {

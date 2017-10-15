@@ -192,11 +192,22 @@
     margin: -10px;
   }
 
+  .menu_opened & {
+    position: fixed;
+    z-index: 1000;
+    right: 44px;
+    top: 30px;
+  }
+
   @include break-max(tablet) {
     display: block;
   }
 
-  @include break-max(mobile) {
+  @include break-max(medium) {
+    .menu_opened & {
+      right: 18px;
+      top: 20px;
+    }
   }
 }
 
@@ -240,7 +251,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 96px;
+    top: 0;
     height: 0;
     background-color: getColor(primary);
     text-align: center;
@@ -269,7 +280,7 @@
     &--open {
       display: block;
       height: 100%;
-      height: calc(100% - 96px);
+      padding-top: 30px;
 
       .header_nav__item {
         transform: translate(0, 0);
@@ -279,11 +290,7 @@
   }
 
   @include break-max(medium) {
-    top: 60px;
-
     &--open {
-      height: 100%;
-      height: calc(100% - 60px);
     }
   }
 }
