@@ -326,7 +326,6 @@ body {
   width: 100%;
   position: absolute;
   z-index: 100;
-  overflow: hidden;
   background: transparent;
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease; }
