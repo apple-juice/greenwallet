@@ -16,10 +16,6 @@ const SCROLL = { top: 1, bottom: -1 }
 
 class Header {
   _bindEvents () {
-    this.moveTo = new MoveTo()
-
-    document.querySelectorAll(SELECTOR_MOVE_TO).forEach(this._bindLink)
-
     if (NAV_TOGGLE) {
       NAV_TOGGLE.addEventListener('click',
         function (e) {
@@ -29,6 +25,10 @@ class Header {
           BODY.classList.toggle('menu_opened')
         }, false)
     }
+
+    this.moveTo = new MoveTo()
+
+    this.el.querySelectorAll(SELECTOR_MOVE_TO).forEach(this._bindLink)
   }
 
   _bindLink = (node) => {
@@ -43,6 +43,9 @@ class Header {
       const onStateChange = () => {
         if (watcher.isAboveViewport && watcher.isInViewport) {
           node.parentNode.classList.add(CN_NAV_ITEM__ACTIVE)
+          NAV_TOGGLE.classList.remove('active')
+          NAV.classList.remove('nav_dropdown--open')
+          BODY.classList.remove('menu_opened')
         } else {
           node.parentNode.classList.remove(CN_NAV_ITEM__ACTIVE)
         }
