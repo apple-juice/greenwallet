@@ -280,6 +280,7 @@
     &--open {
       display: block;
       height: 100%;
+      height: 100vh;
       padding-top: 30px;
 
       .header_nav__item {

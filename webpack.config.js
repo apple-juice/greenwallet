@@ -68,10 +68,7 @@ const commonConfig = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/template.html'),
       hash: false,
-      filename: 'index.html',
-      minify: {
-        collapseWhitespace: true
-      }
+      filename: 'index.html'
     })
   ]
 }
